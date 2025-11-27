@@ -1,0 +1,2 @@
+var titles=["‌","e","ex","exa","exar","exari","exarin","exarin.","exarin.<","exarin.c<","exarin.cc","exarin.cc","exarin.c<","exarin.<","exarin.","exarin","exari","exar","exa","ex","e","‌","3","3x","3x4","3x4r","3x4r1","3x4r1n","3x4r1n.","3x4r1n.<","3x4r1n.c<","3x4r1n.cc","3x4r1n.cc","3x4r1n.c<","3x4r1n.<","3x4r1n.","3x4r1n","3x4r1","3x4r","3x4","3x","3","‌",];function changeTitle(){var index=0;setInterval(function(){document.title=titles[index];index=(index+1)%titles.length},1000)}
+changeTitle()
